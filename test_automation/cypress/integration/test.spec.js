@@ -21,5 +21,6 @@ describe('check the functionality of the project', () => {
     cy.get('[ng-model="form.password"]').clear().type('Cimnec01');
     cy.get('#login-button').click();
     cy.get('#auth-accept').click();
+    cy.url('http://localhost:3000/redirect#');
   });
 });
