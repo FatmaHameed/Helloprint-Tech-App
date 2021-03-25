@@ -18,4 +18,4 @@ After navigating to test_automation folder, to run those tests in your local mac
 
 For more information, please visit [Cypress Documentation](https://docs.cypress.io/guides/getting-started/installing-cypress.html#Opening-Cypress)
 
-**Notes** The tests is not complete because some issues I faced with the app in my local machine and shortage of time
+**Notes** The tests is not complete, thus the test cases is not working as properly. I faced some issues with the app in my local machine and shortage of time
