@@ -17,3 +17,5 @@ After navigating to test_automation folder, to run those tests in your local mac
   3- Run the test cases by clicking on **test.spec.js** file inside the **integration** folder.
 
 For more information, please visit [Cypress Documentation](https://docs.cypress.io/guides/getting-started/installing-cypress.html#Opening-Cypress)
+
+**Notes** The tests is not complete because some issues I faced with the app in my local machine and shortage of time
