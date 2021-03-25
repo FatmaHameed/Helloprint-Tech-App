@@ -22,5 +22,6 @@ describe('check the functionality of the project', () => {
     cy.get('#login-button').click();
     cy.get('#auth-accept').click();
     cy.url('http://localhost:3000/redirect#');
+    cy.get('.background').contains('');
   });
 });
