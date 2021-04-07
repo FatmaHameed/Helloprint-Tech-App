@@ -10,7 +10,12 @@
 //
 //
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
+Cypress.Commands.add('login', (username, password) => {
+  cy.get('[ng-model="form.username"]').clear().type(username);
+  cy.get('[ng-model="form.password"]').clear().type(password);
+  cy.get('#login-button').click();
+  cy.get('#auth-accept').click();
+});
 //
 //
 // -- This is a child command --
